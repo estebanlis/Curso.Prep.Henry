@@ -165,7 +165,7 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if(numero != 0){
+  if(numero !== 0){
     if(numero >0){
       return "Es positivo";
     }
@@ -233,11 +233,11 @@ function esVocal(letra){
   if(letra.length >1){
     return "Dato incorrecto";
   }
-  if(letra != "a"){
-    if(letra != "e"){
-      if(letra != "i"){
-        if(letra != "o"){
-          if(letra != "u"){
+  if(letra !== "a"){
+    if(letra !== "e"){
+      if(letra !== "i"){
+        if(letra !== "o"){
+          if(letra !== "u"){
             return "Dato incorrecto"
           }
         }
