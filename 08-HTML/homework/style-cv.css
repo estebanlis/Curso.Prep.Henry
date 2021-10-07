@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#titulo{
+   display: flex;
+   justify-content: center;
+}
+
+#contenido{
+    margin:50px auto;
+    max-width: 600px;
+    margin: 20px auto;
+    
+}
+
+.sub-contenido p{
+    font-size: 16px;
+}
+.sub-contenido h2{
+    font-size: 20px;
+}
+
+.left{
+    float: left;
+    width: 200px;
+    
+}
+.right{
+    float: right;
+    width: 400px;
+    
+}
+
+.box{
+    margin: 20px auto;
+}
+.right img{
+    margin-left: 100px;
+    margin-top: 15px;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+}
